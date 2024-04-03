@@ -34,11 +34,11 @@ document.getElementById('capture').onchange = function (evt) {
          console.log(file);
        
         //HTTP Post Request
-        var URL = "https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/4329c263-f29f-4a70-ab53-895655c84d91/classify/iterations/Iteration1/image";
+        var URL = "https://waste-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/edd3a63b-98ff-456d-aa71-166a12e0cec3/classify/iterations/Iteration1/image";
         var xhr = new XMLHttpRequest();
         
         xhr.open('POST', URL, true);
-        xhr.setRequestHeader('Prediction-Key','a6161e29140945db9fdb8a3ae3a9521f');
+        xhr.setRequestHeader('Prediction-Key','046ca57156c749019801b5ded133bd47');
         xhr.setRequestHeader('Content-Type','application/octet-stream')
    
         
