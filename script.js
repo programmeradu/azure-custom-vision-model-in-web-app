@@ -34,7 +34,7 @@ document.getElementById('capture').onchange = function (evt) {
          console.log(file);
        
         //HTTP Post Request
-        var URL = "https://waste-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/edd3a63b-98ff-456d-aa71-166a12e0cec3/classify/iterations/Iteration1/image";
+        var URL = "https://waste-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/edd3a63b-98ff-456d-aa71-166a12e0cec3/classify/iterations/Iteration3/image";
         var xhr = new XMLHttpRequest();
         
         xhr.open('POST', URL, true);
